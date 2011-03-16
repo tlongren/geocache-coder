@@ -6,8 +6,7 @@
 <title>Geocaching Hint Decoder/Encoder</title>
 <link href="css/styles.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/1140.css" rel="stylesheet" type="text/css" media="all" />
-<link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Reenie+Beanie' rel='stylesheet' type='text/css' />
+<link  href="http://fonts.googleapis.com/css?family=Indie+Flower:regular" rel="stylesheet" type="text/css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>
 <script src="js/process.js" type="text/javascript"></script>
 <script src="js/jquery.simpleCaptcha-0.2.min.js" type="text/javascript"></script>
@@ -18,6 +17,16 @@ $('#contactCaptcha')
     numImages: 6,
     introText: 'To make sure you are human, please click on the <strong class="captchaText"></strong>.'
   });
+});
+</script>
+<script src="js/jquery.fixedBar.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$().fixedBar({
+position: 'bottom',
+height: '25',
+style: 'customBar'
+});
 });
 </script>
 </head>
@@ -55,5 +64,6 @@ $('#contactCaptcha')
 			</div>
 		</div>
 	</div>
+	<div id="fixedBar">&copy; Copyright 2011 <a href="http://tyler.longren.org">Tyler Longren</a>. Find <a href="https://github.com/tlongren">me on GitHub</a>!</div>
 </body>
 </html>
