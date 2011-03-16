@@ -1,0 +1,130 @@
+body {
+	font-family: 'Molengo', arial, serif;
+	background: #231f20;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #FFF;
+}
+body a {
+	color: #FFF;
+	text-decoration: underline;
+}
+body a:hover {
+	text-decoration: none;
+}
+#wrapper {
+	background: #231f20;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+
+#message {
+	width: 300px;
+	height: 100px;
+}
+.decodedMessage {
+	float: left;
+	padding-left:20px;
+	font-family:arial;
+	font-size:12px; 
+	width:500px; 
+	height: 50px;
+	margin:20px auto; 
+	display:none
+}
+.decodedMessage p {
+	padding-left: 20px;
+}
+.notComplete {
+	float: left;
+	background:url(../images/sign-warning.png) no-repeat 2px; 
+	padding-left:20px;
+	font-family:arial;
+	font-size:12px; 
+	width:500px; 
+	height: 50px;
+	margin:20px auto; 
+	display:none
+}
+.notComplete p {
+	padding-left: 20px;
+}
+.dbError {
+	float: left;
+	background:url(../images/sign-warning.png) no-repeat 2px; 
+	padding-left:20px;
+	font-family:arial;
+	font-size:12px; 
+	width:500px; 
+	height: 50px;
+	margin:20px auto; 
+	display:none
+}
+.dbError p {
+	padding-left: 20px;
+}
+.captchaFail {
+	float: left;
+	background:url(../images/sign-warning.png) no-repeat 2px; 
+	padding-left:20px;
+	font-family:arial;
+	font-size:12px; 
+	width:500px; 
+	height: 50px;
+	margin:20px auto; 
+	display:none
+}
+.captchaFail p {
+	padding-left: 20px;
+}
+.unexpectedError {
+	float: left;
+	background:url(../images/sign-warning.png) no-repeat 2px; 
+	padding-left:20px;
+	font-family:arial;
+	font-size:12px; 
+	width:500px; 
+	height: 50px;
+	margin:20px auto; 
+	display:none
+}
+.unexpectedError p {
+	padding-left: 20px;
+}
+.captchaImage { margin: 0 5px 10px 5px; }
+.simpleCaptchaSelected { border: 2px dashed #fff; }
+.loading {  
+    float:right;   
+    background:url(../images/loading.gif) no-repeat 1px;   
+    height:28px;   
+    width:28px;   
+    display:none;  
+}  
+/* End Jquery Forms CSS */
+/* Start Button CSS */
+.button { background: none; border: none; margin: 0; padding: 0; font-size: 0; line-height: 0; width: auto; overflow: visible; }
+.button{
+background: #222 url(../images/alert-overlay.png) repeat-x;
+display: inline-block;
+padding: 5px 5px 5px;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+line-height: 1;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+border-bottom: 1px solid rgba(0,0,0,0.25);
+position: relative;
+cursor: pointer;
+font-size: 11px;
+background-color: #ec1a23;
+}
+.button:hover {
+background-color: #B25D6D;
+/* color: #000; */
+}
