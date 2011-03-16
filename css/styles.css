@@ -1,5 +1,6 @@
 body {
 	font-family: 'Indie Flower', serif;
+	font-size: 18px;
 	background: #231f20;
 	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
 	padding: 0;
@@ -24,6 +25,7 @@ body a:hover {
 	width: 300px;
 	height: 100px;
 	font-family: 'Indie Flower', serif;
+	font-size: 20px;
 }
 .decodedMessage {
 	float: left;
@@ -128,6 +130,7 @@ cursor: pointer;
 font-size: 11px;
 background-color: #ec1a23;
 font-family: 'Indie Flower', serif;
+font-size: 16px;
 }
 .button:hover {
 background-color: #B25D6D;
