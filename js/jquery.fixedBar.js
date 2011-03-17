@@ -19,7 +19,7 @@
 
 		var selector = (this.selector=='') ? '#fixedBar' : this.selector;		//Set selector id
 		var height = defaults.height*2+20;
-		console.log(height);
+		//console.log(height);
 		
 		//Set CSS styles
 		 var cssObj = {
