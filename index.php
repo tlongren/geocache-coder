@@ -37,7 +37,7 @@ $('#contactCaptcha')
 				</div>
 					<div class="row">
 						<div class="col-lg-12">
-							<div class="notComplete"><p>All of the fields are required, please fill them out and click the <span class="button">Do Work</span> button again.</p></div>
+							<div class="notComplete"><p>All of the fields are required, please fill them out and click the <span class="btn btn-default">Do Work</span> button again.</p></div>
 							<div class="captchaFail"><p>You didn't click the correct captcha image, you must be a bot. If you're a real human, please try again.</p></div>
 							<div class="decodedMessage"></div>
 						</div>
