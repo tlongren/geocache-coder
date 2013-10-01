@@ -4,13 +4,12 @@
 	font-size: 20px;
 }
 .decodedMessage {
-	padding-left:20px;
 	font-family:arial;
 	font-size:12px; 
-	width:500px; 
 	height: 50px;
-	margin:20px auto; 
+	margin:0 auto; 
 	display:none;
+	text-align:center;
 }
 .decodedMessage p {
 	padding-left: 20px;
@@ -18,53 +17,45 @@
 }
 
 .notComplete {
-	float: left;
-	padding-left:20px;
 	font-family:arial;
 	font-size:12px; 
-	width:500px; 
 	height: 50px;
-	margin:20px auto; 
-	display:none
+	margin:0 auto;
+	display:none;
+	text-align:center;
 }
 .notComplete p {
 	padding-left: 20px;
 }
 .dbError {
-	float: left;
-	padding-left:20px;
 	font-family:arial;
 	font-size:12px; 
-	width:500px; 
 	height: 50px;
-	margin:20px auto; 
-	display:none
+	margin:0 auto;
+	display:none;
+	text-align:center;
 }
 .dbError p {
 	padding-left: 20px;
 }
 .captchaFail {
-	float: left;
-	padding-left:20px;
 	font-family:arial;
 	font-size:12px; 
-	width:500px; 
 	height: 50px;
-	margin:20px auto; 
-	display:none
+	margin:0 auto;
+	display:none;
+	text-align:center;
 }
 .captchaFail p {
 	padding-left: 20px;
 }
 .unexpectedError {
-	float: left;
-	padding-left:20px;
 	font-family:arial;
 	font-size:12px; 
-	width:500px; 
 	height: 50px;
-	margin:20px auto; 
-	display:none
+	margin:0 auto;
+	display:none;
+	text-align:center;
 }
 .unexpectedError p {
 	padding-left: 20px;
